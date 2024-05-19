@@ -1,12 +1,14 @@
 {
-	"scripts": {
-		"build": "tsc --watch"
-	},
-	"devDependencies": {
-		"@types/node": "^20.12.10",
-		"typescript": "^5.4.5"
-	},
-	"volta": {
-		"node": "20.12.2"
-	}
+  "scripts": {
+    "build": "tsc --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.10",
+    "tsx": "^4.10.5",
+    "typescript": "^5.4.5"
+  },
+  "volta": {
+    "node": "20.12.2"
+  },
+  "type": "module"
 }
