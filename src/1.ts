@@ -1,8 +1,9 @@
 export function rollDice(quantity: number) {
-  return Array.from({ length: quantity }, () => {
+  let emoji = Array.from({ length: quantity }, () => {
     let result = Math.floor(Math.random() * 6) + 1;
     return "⚀⚀⚁⚂⚃⚄⚅"[result];
   });
+  return emoji;
 }
 
 type Sign = "+" | "-" | "*" | "/";
